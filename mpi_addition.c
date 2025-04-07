@@ -79,7 +79,7 @@ int main(int argc, char *argv[]) {
         printf("Displacement: ", displacement[rank], "\n");                               // print the displacement of each process
         printf("Element Total: ", element_total[rank], "\n");                             // print the number of elements to send to each process
         printf("Sub Array Size: ", sub_array_size, "\n");                                 // print the size of each process's subarray
-        printf("Rank: ", rank, "\n");                                               `     // print the rank of each process
+        printf("Rank: ", rank, "\n");                                                     // print the rank of each process
         printf("Size: ", size, "\n");                                                     // print the number of processes
     }
    
