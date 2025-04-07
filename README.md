@@ -16,7 +16,7 @@ Each problem is implemented in C/C++ using MPI, with a focus on parallelization,
 
 ## Pithagoras Cluster
 
-All MPI programs were developed and executed on a custom-built Raspberry Pi cluster named Pithagoras, consisting of 8 Raspberry Pi 4 Model B boards. Each Pi is equipped with a quad-core ARM Cortex-A72 CPU and 4 GB of RAM.
+All MPI programs were developed and executed on a custom-built Raspberry Pi cluster named Pithagoras, consisting of 8 Raspberry Pi 4 Model B boards. Each Pi is equipped with a quad-core ARM Cortex-A72 CPU and 2 GB of RAM.
 
 This cluster provides a cost-effective and educational platform for parallel computing and distributed systems experiments. It was used to benchmark wall time, observe speedups, and validate correctness across different levels of parallelism.
 
