@@ -44,7 +44,6 @@ int main(int argc, char *argv[]) {
     int remainder = MAIN_ARRAY % size;                                                    // sets the remainder for each process          
     long long subprocess_sum = 0;                                                         // holds the sum of each process
     long long total_sum = 0;                                                              // holds the total sum
-   // double start_time, end_time;                                                        // holds the start and end time
     int* element_total = NULL;                                                            // array to hold the number of elements to send to each process
     int* displacement = NULL;                                                             // array to hold the displacement of each process
 
